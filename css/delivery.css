@@ -94,8 +94,18 @@ a:active {
 
 }
 /* END OF NAV STYLING */
-.container{
-  width: 100%;
+.h1{
+  padding-left: 60px;
+}
+.select{
+  padding-top: 80px;
+  padding-left: 200px;
+}
+.input-group-text{
+  background-color: #ba53de;
+}
+.custom-select{
+  background-color: #88bef5;
 }
 
 
