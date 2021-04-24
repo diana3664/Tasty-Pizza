@@ -1,8 +1,8 @@
 html{
   background-color: #ba53de;
 }
-/* LOG0 */
-.logo{
+/* BOUNCE LOG0 */
+.bounce-logo{
   text-align: center;
  padding-top: 250px;
  padding-bottom: 250px;
@@ -20,4 +20,27 @@ html{
   60% {
     transform: translateY(-45px);
   }
+}
+/* END OF BOUNCE LOGO */
+
+
+/* LOGO */
+
+.logo1{
+  height:20px;
+  margin-left: 43px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  float: left;
+  transform: rotate(45deg); /*rotate effect */
+}
+.logo-title{
+  text-align: center;
+  font-size: 20px;
+   font-family: 'trocchi';
+   color: #88bef5;
+   float:right!important;
+   padding-right: 1000px;
+
 }
