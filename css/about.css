@@ -51,7 +51,6 @@ header{
   color: #f4fa9c;
   margin-right: 10px;
   cursor: pointer;
-
 }
 a:link {
    text-decoration: none;
@@ -92,3 +91,44 @@ a:active {
 
 }
 /* END OF NAV STYLING */
+
+/* image */
+#polygon {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 0 20px;
+  shape-outside: polygon(
+    0 0,
+    100% 0,
+    100% 20%,
+    60% 20%,
+    60% 100%,
+    40% 100%,
+    40% 20%,
+    0 20%
+  );
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 20%,
+    60% 20%,
+    60% 100%,
+    40% 100%,
+    40% 20%,
+    0 20%
+  );
+  background: lightblue;
+}
+.paragraph{
+  margin-left: 350px;
+  width: 550px;
+  margin-top: 90px;
+}
+h2{
+  clear: both;
+  padding-top: 10px;
+  padding-left: 40%;
+  color: #316879;
+  font: 200;
+}
