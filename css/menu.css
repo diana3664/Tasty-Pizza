@@ -27,17 +27,23 @@ header{
 #nav{
   float: right;
   padding-right: 5%;
-margin-top:-70px;
+  margin-top:-60px;
+  color: #f4fa9c;
+  margin-right: 10px;
 }
 a:link {
    text-decoration: none;
    text-transform: uppercase;
+   color: #f4fa9c;
+   margin-right: 10px;
    }
 
 
 a:visited { 
   text-decoration: none; 
   text-transform: uppercase;
+  color: #f4fa9c;
+  margin-right: 10px;
 
 }
 
@@ -45,6 +51,8 @@ a:visited {
 a:hover { 
   text-decoration: none; 
   text-transform: uppercase;
+  color: #f4fa9c;
+  margin-right: 10px;
 
 }
 
@@ -52,5 +60,6 @@ a:hover {
 a:active { 
   text-decoration: none; 
   text-transform: uppercase;
-
+  color: #f4fa9c;
+  margin-right: 10px;
 }
