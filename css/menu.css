@@ -50,12 +50,16 @@ header{
   margin-top:-60px;
   color: #f4fa9c;
   margin-right: 10px;
+  cursor: pointer;
+
 }
 a:link {
    text-decoration: none;
    text-transform: uppercase;
    color: #f4fa9c;
    margin-right: 10px;
+   cursor: pointer;
+
    }
 
 
@@ -64,6 +68,8 @@ a:visited {
   text-transform: uppercase;
   color: #f4fa9c;
   margin-right: 10px;
+  cursor: pointer;
+
 
 }
 
@@ -82,5 +88,7 @@ a:active {
   text-transform: uppercase;
   color: #f4fa9c;
   margin-right: 10px;
+  cursor: pointer;
+
 }
 /* END OF NAV STYLING */
