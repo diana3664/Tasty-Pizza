@@ -7,7 +7,7 @@ header{
 .logo-top{
   height:20px;
   margin-left: 43px;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   float: left;
@@ -19,14 +19,16 @@ header{
    font-family: 'trocchi';
    color: #88bef5;
    float:right!important;
-   padding-right: 1000px;
+   padding-right: 1010px;
+   padding-top: 20px;
 
 }
 /* END OF LOGO TOP */
 #nav{
   float: right;
   padding-right: 5%;
-margin-top: 0px;}
+margin-top:-70px;
+}
 a:link {
    text-decoration: none;
    text-transform: uppercase;
