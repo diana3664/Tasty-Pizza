@@ -1,0 +1,93 @@
+header{
+  background-color: #ba53de;
+  height: 100px
+}
+/* LOGO TOP */
+
+.logo-top{
+  height:20px;
+  margin-left: 43px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  float: left;
+  transform: rotate(45deg); /*rotate effect */
+}
+.logo-title1{
+  text-align: center;
+  font-size: 20px;
+   font-family: 'trocchi';
+   color: #88bef5;
+   float:right!important;
+   padding-right: 1010px;
+   padding-top: 20px;
+
+}
+.logo{
+  text-align: center;
+ padding-top: 0px;
+ padding-bottom: 250px;
+	animation: bounce 2s infinite;
+  padding-bottom: 50px;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 50% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-50px);
+  }
+  60% {
+    transform: translateY(-45px);
+  }
+}
+/* END OF LOGO TOP */
+/* NAV STYLING */
+#nav{
+  float: right;
+  padding-right: 5%;
+  margin-top:-60px;
+  color: #f4fa9c;
+  margin-right: 10px;
+  cursor: pointer;
+}
+a:link {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #f4fa9c;
+   margin-right: 10px;
+   cursor: pointer;
+
+   }
+
+
+a:visited { 
+  text-decoration: none; 
+  text-transform: uppercase;
+  color: #f4fa9c;
+  margin-right: 10px;
+  cursor: pointer;
+
+
+}
+
+
+a:hover { 
+  text-decoration: none; 
+  text-transform: uppercase;
+  margin-right: 10px;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+
+a:active { 
+  text-decoration: none; 
+  text-transform: uppercase;
+  color: #f4fa9c;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+/* END OF NAV STYLING */
