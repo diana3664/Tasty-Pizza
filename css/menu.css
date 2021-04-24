@@ -1,6 +1,6 @@
 header{
   background-color: #ba53de;
-  height: 80px
+  height: 100px
 }
 /* LOGO TOP */
 
@@ -23,3 +23,32 @@ header{
 
 }
 /* END OF LOGO TOP */
+#nav{
+  float: right;
+  padding-right: 5%;
+margin-top: 0px;}
+a:link {
+   text-decoration: none;
+   text-transform: uppercase;
+   }
+
+
+a:visited { 
+  text-decoration: none; 
+  text-transform: uppercase;
+
+}
+
+
+a:hover { 
+  text-decoration: none; 
+  text-transform: uppercase;
+
+}
+
+
+a:active { 
+  text-decoration: none; 
+  text-transform: uppercase;
+
+}
