@@ -9,8 +9,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/css/bootstrap.css">
   <link rel="stylesheet" href="css/menu.css">
-  <link rel="stylesheet" href="js/jquery-3.6.0.js">
-  <link rel="stylesheet" href="js/script.js">
+ 
   <title>Tasty PIZZA</title>
 </head>
 
@@ -23,6 +22,7 @@
     </div>
 
     <!-- Nav bar. -->
+    
     <div class="container">
       <nav id="nav">
         <a href="index.html">Home</a>
@@ -45,21 +45,46 @@
           alt="single regular pizza">
       </div>
       <div class="col-md-6 price1">
-        <div class="option1">
+        <h3><strong>Small classic Pizza</strong></h3>
+        <div class="form-group">
+          <label for="select">Crust</label>
+          <select name="" id="value0" class="form-select" >
+            <option selected>Choose your Crust..</option>
+
+            <option value="1">New York Pizza Crust</option>
+            <option value="2">Traditional pan Pizza</option>
+            <option value="3">Deep dish Pizaa</option>
+          </select>
+        </div>
+        <!-- new -->
+        <div class="form-group">
+          <label for="select">Toppings</label>
+        <select class="form-select" aria-label="Default select example" id="toppingsSmall">
+          <option selected>Choose your Toppings..</option>
+          <option value="a">Beef toppings</option>
+          <option value="b">Chiken toppings</option>
+          <option value="c">pineapple toppings</option>
+        </select>
+        </div>
+        <br>
+        <br>
+        <button type="button" id="btn0">Buy</button>
+        <!-- end new -->
+        <!-- <div class="option1">
           <p> Small Size pizza and your regular Beef toppings</p>
           <strong><p id="value0">Ksh 550</p></strong>
-          <button type="button" class="btn0">Buy</button>
+          <button type="button" id="btn0">Buy</button>
         </div>
         <div class="option2">
           <p>Small Size pizza and your regular chiken toppings</p>
           <strong><p id="value1">Ksh 650</p></strong>
-          <button type="button" class="btn1">Buy</button>
+          <button type="button" id="btn1">Buy</button>
         </div>
         <div class="option3">
           <p>Small Sizepizza and your regular pineapple toppings</p>
           <strong><p id="value2">Ksh 750</p></strong>
-          <button type="button" class="btn2">Buy</button>
-        </div>
+          <button type="button" id="btn2">Buy</button>
+        </div> -->
       </div>
     </div>
     <br>
@@ -69,21 +94,29 @@
         alt="single regular pizza">
       </div>
       <div class="col-md-6 price1">
-        <div class="option1">
+        <div class="form-group">
+          <label for="select">Choose your type</label>
+          <select name="" id="value1" class="form-control" >
+            <option value="1">medium Size pizza and your regular Beef toppings</option>
+            <option value="2">medium Size pizza and your regular chiken toppings</option>
+            <option value="3">medium Sizepizza and your regular pineapple toppings</option>
+          </select>
+        </div>
+        <!-- <div class="option1">
           <p>Medium size pizza and your regular Beef toppings</p>
           <strong><p id="value3">Ksh 750</p></strong>
-          <button type="button" class="btn3">Buy</button>
+          <button type="button" id="btn3">Buy</button>
         </div>
         <div class="option2">
           <p>Medium size pizza and your regular chiken toppings</p>
           <strong><p id="value4">Ksh 800</p></strong>
-          <button type="button" class="btn4">Buy</button>
+          <button type="button" id="btn4">Buy</button>
         </div>
         <div class="option3">
           <p>Medium size pizza and your regular pineapple toppings</p>
           <strong><p id="value5">Ksh 850</p></strong>
-          <button type="button" class="btn5">Buy</button>
-        </div>
+          <button type="button" id="btn5">Buy</button>
+        </div> -->
       </div>
     </div>
     <br>
@@ -92,21 +125,29 @@
         <img style="height: 300px;width: 300px;margin-left: 150px;" src="./images/pic3.webp" alt="single regular pizza">
       </div>
       <div class="col-md-6 price1">
-        <div class="option1">
+        <div class="form-group">
+          <label for="select">Choose your type</label>
+          <select name="" id="value2" class="form-control" >
+            <option value="1">large Size pizza and your regular Beef toppings</option>
+            <option value="2">large Size pizza and your regular chiken toppings</option>
+            <option value="3">large Sizepizza and your regular pineapple toppings</option>
+          </select>
+        </div>
+        <!-- <div class="option1">
           <p>Large size pizza and your regular Beef toppings</p>
           <strong><p id="value6">ksh 800</p></strong>
-          <button type="button" class="btn6">Buy</button>
+          <button type="button" id="btn6">Buy</button>
         </div>
         <div class="option2">
           <p>Large size pizza and your regular chiken toppings</p>
           <strong><p id="value7">ksh 850</p></strong>
-          <button type="button" class="btn7">Buy</button>
+          <button type="button" id="btn7">Buy</button>
         </div>
         <div class="option3">
           <p>Large size pizza and your regular pineapple toppings</p>
           <strong><p id="value8">Ksh 900</p></strong>
-          <button type="button" class="btn8">Buy</button>
-        </div>
+          <button type="button" id="btn8">Buy</button>
+        </div> -->
       </div>
     </div>
     <br>
@@ -117,21 +158,29 @@
         style="font-size:50px">P</strong>izza</h3>
     <div class="row pic1">
       <div class="col-md-6">
-        <div class="option1">
+        <div class="form-group">
+          <label for="select">Choose your type</label>
+          <select name="" id="value3" class="form-control" >
+            <option value="1">Small Size pizza and your regular Beef toppings</option>
+            <option value="2">Small Size pizza and your regular chiken toppings</option>
+            <option value="3">Small Sizepizza and your regular pineapple toppings</option>
+          </select>
+        </div>
+        <!-- <div class="option1">
           <p> Small Size pizza and your regular Beef toppings</p>
           <strong><p id="value9">Ksh 850</p></strong>
-          <button type="button" class="btn9">Buy</button>
+          <button type="button" id="btn9">Buy</button>
         </div>
         <div class="option2">
           <p>Small Size pizza and your regular chiken toppings</p>
           <strong><p id="value10">Ksh 900</p></strong>
-          <button type="button" class="btn10">Buy</button>
+          <button type="button" id="btn10">Buy</button>
         </div>
         <div class="option3">
           <p>Small Sizepizza and your regular pineapple toppings</p>
           <strong><p id="value11">Ksh 950</p></strong>
-          <button type="button" class="btn11">Buy</button>
-        </div>
+          <button type="button" id="btn11">Buy</button>
+        </div> -->
       </div>
       <div class="col-md-6 price1">
         <img style="height: 300px;width: 300px;margin-left: 150px;" src="./images/pizza4.jpg"
@@ -141,22 +190,29 @@
     <br>
     <div class="row pic2">
       <div class="col-md-6">
-
-        <div class="option1">
+        <div class="form-group">
+          <label for="select">Choose your type</label>
+          <select name="" id="value4" class="form-control" >
+            <option value="1">medium Size pizza and your regular Beef toppings</option>
+            <option value="2">medium Size pizza and your regular chiken toppings</option>
+            <option value="3">medium Sizepizza and your regular pineapple toppings</option>
+          </select>
+        </div>
+        <!-- <div class="option1">
           <p>Medium size pizza and your regular Beef toppings</p>
           <strong><p id="value12">Ksh 900</p></strong>
-          <button type="button" class="btn12">BUY</button>
+          <button type="button" id="btn12">BUY</button>
         </div>
         <div class="option2">
           <p>Medium size pizza and your regular chiken toppings</p>
           <strong><p id="value13">Ksh 950</p></strong>
-          <button type="button" class="btn13">Buy</button>
+          <button type="button" id="btn13">Buy</button>
         </div>
         <div class="option3">
           <p>Medium size pizza and your regular pineapple toppings</p>
           <strong><p id="value14">Ksh 1000</p></strong>
-          <button type="button" class="btn14">Buy</button>
-        </div>
+          <button type="button" id="btn14">Buy</button>
+        </div> -->
       </div>
       <div class="col-md-6 price1">
         <img style="height: 300px;width: 300px;margin-left: 150px;" src="./images/pizza5.jpg"
@@ -166,21 +222,29 @@
     <br>
     <div class="row pic2">
       <div class="col-md-6">
-        <div class="option1">
+        <div class="form-group">
+          <label for="select">Choose your type</label>
+          <select name="" id="value5" class="form-control" >
+            <option value="1">large Size pizza and your regular Beef toppings</option>
+            <option value="2">large Size pizza and your regular chiken toppings</option>
+            <option value="3">large Sizepizza and your regular pineapple toppings</option>
+          </select>
+        </div>
+        <!-- <div class="option1">
           <p>Large size pizza and your regular Beef toppings</p>
           <strong><p id="value15">Ksh 900</p></strong>
-          <button type="button" class="btn15">Buy</button>
+          <button type="button" id="btn15">Buy</button>
         </div>
         <div class="option2">
           <p>Large size pizza and your regular chiken toppings</p>
           <strong><p id="value16">Ksh 1000</p></strong>
-          <button type="button" class="btn16">Buy</button>
+          <button type="button" id="btn16">Buy</button>
         </div>
         <div class="option3">
           <p>Large size pizza and your regular pineapple toppings</p>
           <strong><p id="value17">Ksh 1100</p></strong>
-          <button type="button" class="btn17">Buy</button>
-        </div>
+          <button type="button" id="btn17">Buy</button>
+        </div> -->
       </div>
       <div class="col-md-6 price1">
         <img style="height: 300px;width: 300px;margin-left: 150px;" src="./images/large-pizza.jpg"
@@ -190,6 +254,8 @@
     </div>
     <br>
   </div>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

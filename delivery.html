@@ -9,8 +9,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/delivery.css" type="text/css">
-  <link rel="stylesheet" href="js/jquery-3.6.0.js">
-  <link rel="stylesheet" href="js/script.js">
+  
   <title>Tasty PIZZA</title>
 </head>
 
@@ -36,20 +35,27 @@
   </header>
 
   <div class="container">
-    <h1 class="h1"><strong style="font-size:50px">S</strong>tart <strong style="font-size:50px">Y</strong>our<strong style="font-size:70px"> <br>  o</strong>rder!</h1>
-  
-  <div class="select">
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <label class="input-group-text" for="inputGroupSelect01">Delivery</label>
+    <h1 class="h1"><strong style="font-size:50px">S</strong>tart <strong style="font-size:50px">Y</strong>our<strong
+        style="font-size:70px"> <br> o</strong>rder!</h1>
+
+    <div class="select">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="inputGroupSelect01">Delivery</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01" style="width:250px;">
+          <option value="1">Pick-up</option>
+          <option value="2">Delivery</option>
+        </select>
       </div>
-      <select class="custom-select" id="inputGroupSelect01" style="width:250px;">
-        <option value="1">Pick-up</option>
-        <option value="2">Delivery</option>
-      </select>
     </div>
+
+    <ul id="order">
+      
+    </ul>
   </div>
-  </div>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
