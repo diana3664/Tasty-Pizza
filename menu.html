@@ -115,7 +115,39 @@
     <br><br>
     <button type="submit" class="btn btn-success proceed">Add to cart</button>
   </form>
+
   <!-- end of form -->
+
+  <div class="choise">
+    <h2>Your Order is:</h2>
+    <div id="your-orders">
+      <table class="table table-sm  pizzatable">
+        <thead>
+          <tr>
+            <th scope="col" style="color: aliceblue;">Size</th>
+            <th scope="col" style="color: aliceblue;">Crust</th>
+            <th scope="col" style="color: aliceblue;">Topping</th>
+            <th scope="col" style="color: aliceblue;">Total</th>
+          </tr>
+        </thead>
+        <tbody id="ordersmade">
+          <tr>
+            <td id="pizzasize"></td>
+            <td id="pizzacrust"></td>
+            <td id="pizzatopping"></td>
+            <td id="totals"></td>
+          </tr>
+        </tbody>
+      </table>
+      <p id="pizzatotal"></p>
+      <p id="totalbill"></p>
+      <p id="addedprice">Delivery will cost sh. 150</p>
+      <p id="finallmessage"></p>
+    </div>
+    <button class="btn btn-success" id="checkout">Checkout</button>
+    <button class="btn btn-primary deliver">Need delivery?</button>
+  </div>
+  
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/script.js"></script>
 </body>

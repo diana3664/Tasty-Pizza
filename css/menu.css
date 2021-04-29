@@ -51,6 +51,7 @@ a:link {
 /* first image */
 body{
   background-image: url('../images/istockphoto-667224216-170667a.jpg');
+  color: white;
 }
 /* menus */
 #portfolio{
