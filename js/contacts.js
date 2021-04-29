@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("form#form").submit(function(event){
+  $("#form#form1").submit(function(event){
     var nameInput = $("input#name").val();
     var emailInput = $("input#email").val();
     var messageInput = $("textarea#message").val();
