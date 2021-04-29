@@ -1,5 +1,6 @@
 body{
   overflow-x: hidden;
+  color: white;
 }
 header{
   background-color: #ba53de;
@@ -46,67 +47,42 @@ a:link {
 
    }
 
-
-/* a:visited { 
-  text-decoration: none; 
-  text-transform: uppercase;
-  color: #f4fa9c;
-  margin-right: 10px;
-  cursor: pointer;
-
-
-} */
-
-
-/* a:hover { 
-  text-decoration: none; 
-  text-transform: uppercase;
-  margin-right: 10px;
-  border-bottom: 2px solid white;
-  cursor: pointer;
-} */
-
-
-/* a:active { 
-  text-decoration: none; 
-  text-transform: uppercase;
-  color: #f4fa9c;
-  margin-right: 10px;
-  cursor: pointer;
-
-} */
 /* END OF NAV STYLING */
 /* first image */
-button{
-  background-color: #ba53de;
+body{
+  background-image: url('../images/istockphoto-667224216-170667a.jpg');
 }
-.option1{
- width: 600px;
- padding-left: 60px;
+/* menus */
+#portfolio{
+  padding: 20px;
+  margin: 20px 0;
+  
 }
-.option2{
-  width: 600px;
-  padding-left: 60px;
+#portfolio>.container>.row img{
+  margin: 20px auto;
+}
+.col-md-3{
+  position: relative;
+  overflow-y: hidden;
+}
+.col-md-3 img{
+  max-width: 100%;
+  max-height: 100%;
+}
 
- }
- .option3{
-  width: 600px;
-  padding-left: 60px;
 
- }
- .pic1{
-   border-width: 1px !important;
-   border: 0.1px solid #88bef5;
-   box-shadow: 0px 2px 2px 5px #88bef5;
-   padding: 8px;
- }
- .price1{
-   padding-top: 15px;
- }
- /* second image */
- .pic2{
-  border-width: 1px !important;
-  border: 0.1px solid #88bef5;
-  box-shadow: 0px 5px 5px 5px #88bef5;
-  padding: 8px;
+#p-text{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.596);
+  padding: 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
