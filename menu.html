@@ -84,22 +84,22 @@
   <!-- end of menu -->
   <h3 style="text-align:center;background-color: aliceblue;width: 200px;color:black;margin-left: 250px;">ORDER</h3>
   <!-- form -->
-  <form action="">
+  <form action="" style="padding-left: 50px;">
     <label for="select">Select Size</label>
     <select class="" id="size">
       <option selected value="0">Size</option>
-      <option value="large">Large</option>
-      <option value="medium">Medium</option>
-      <option value="small">Small</option>
+      <option value="large">Large ksh 1200</option>
+      <option value="medium">Medium ksh 850</option>
+      <option value="small">Small ksh 600</option>
     </select><br>
     <label for="crust">Choose Crust!</label>
     <select class="" id="crust">
       <option selected value="0">Select crust!</option>
-      <option value="Crispy">Crispy</option>
-      <option value="Stuffed">Stuffed</option>
-      <option value="Gluten-free">Gluten-free</option>
-    </select><br>
-    <label for="Toppings">Select Your Toppings</label><br>
+      <option value="Crispy">Crispy ksh 200</option>
+      <option value="Stuffed">Stuffed Ksh 250</option>
+      <option value="Gluten-free">Gluten-free ksh 180</option>
+    </select><br> <br>
+    <label for="Toppings" ><span>Select Your Toppings @ Ksh 50</span></label><br>
     <div class="custom-control custom-checkbox custom-control-inline">
       <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
       <label class="custom-control-label" for="Sausage">Pineapple</label>
@@ -132,10 +132,10 @@
         </thead>
         <tbody id="ordersmade">
           <tr>
-            <td id="pizzasize"></td>
-            <td id="pizzacrust"></td>
-            <td id="pizzatopping"></td>
-            <td id="totals"></td>
+            <td id="pizzasize" style="color: aliceblue;"></td>
+            <td id="pizzacrust" style="color: aliceblue;"></td>
+            <td id="pizzatopping" style="color: aliceblue;"></td>
+            <td id="totals" style="color: aliceblue;"></td>
           </tr>
         </tbody>
       </table>
